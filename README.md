@@ -1,8 +1,12 @@
-= ColorboxRails
+# ColorboxRails
 
 Make links open in lightbox (colorbox) a breeze
 
-= Usage
+##  updated to:
+* Rails 4.0
+* colorbox js v. 1.6.4
+
+##  Usage
 
 in your application.css
 
@@ -23,7 +27,7 @@ Add attributes inside the :data block
 
 <tt><%= link_to "My superb link", "#", :data => { :colorbox => true, :colorbox_height => '300px', :colorbox_width => '300px', :colorbox_iframe => true } %></tt>
 
-= Available data options
+## Available data options
 
 * colorbox-height (http://www.jacklmoore.com/colorbox/#setting-height)
 * colorbox-width (http://www.jacklmoore.com/colorbox/#setting-width)
@@ -38,12 +42,12 @@ Add attributes inside the :data block
 * colorbox-href (http://www.jacklmoore.com/colorbox/#setting-href)
 * colorbox-html (http://www.jacklmoore.com/colorbox/#setting-html)
 
-= Available link options
+## Available link options
 
 * rel (need colorbox-static data-attribute to work) (http://www.jacklmoore.com/colorbox/#setting-rel)
 
 <tt><%= link_to "My superb link", "#", rel: 'group1', :data => { :colorbox_static => true } %></tt>
 
-= License
+## License
 
 This project rocks and uses MIT-LICENSE.
